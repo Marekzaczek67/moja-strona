@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 21 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="owl.carousel.min.css" rel="stylesheet">
+<link href="fontawesome7.min.css" rel="stylesheet">
+<link href="hulaja.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#features9CardContainer").owlCarousel({autoplayTimeout:5000, smartSpeed: 300, margin: 30, autoplay: true, nav: false, loop: true, dots: true, items: 3, slideBy: 1});
+   $('body').on('click','[data-ecommerce-platform="paypal"]', function(e)
+   {
+      e.preventDefault();
+      var url = "https://www.paypal.com/cgi-bin/webscr?add=1&cmd=";
+      url += $(this).attr('data-cmd');
+      url += "&business=";
+      url += encodeURIComponent($(this).attr('data-business'));
+      url += "&item_name=";
+      url += encodeURIComponent($(this).attr('data-item-name'));
+      url += "&item_number=";
+      url += encodeURIComponent($(this).attr('data-item-number'));
+      url += "&amount=";
+      url += encodeURIComponent($(this).attr('data-amount'));
+      url += "&currency_code=";
+      url += encodeURIComponent($(this).attr('data-currency-code'));
+      if ($(this).attr('data-quantity'))
+      {
+         url += "&quantity=";
+         url += encodeURIComponent($(this).attr('data-quantity'));
+      }
+      url += "&shipping=";
+      url += encodeURIComponent($(this).attr('data-shipping'));
+      url += "&shipping2=";
+      url += encodeURIComponent($(this).attr('data-shipping2'));
+      url += "&handling=";
+      url += encodeURIComponent($(this).attr('data-handling'));
+      url += "&no_shipping=";
+      url += encodeURIComponent($(this).attr('data-no_shipping'));
+      url += "&return=";
+      url += encodeURIComponent($(this).attr('data-success-url'));
+      url += "&cancel_return=";
+      url += encodeURIComponent($(this).attr('data-cancel-url'));
+      window.open(url, '_click');
+   });
+});
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb21.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
+<div id="wb_features9LayoutGrid">
+<div id="features9LayoutGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_features9Heading" style="display:block;width:100%;z-index:6;">
+<h1 id="features9Heading">Hejtujesz kukirina?</h1>
+</div>
+<div id="wb_features9Text">
+<p>Srona oparta na wszystkich modelach kukirina</p>
+</div>
+<div id="wb_features9CardContainer">
+<div id="features9CardContainer" class="owl-carousel owl-theme">
+<div id="wb_features9Card1" style="display:flex;z-index:0;" class="card">
+<div id="features9Card1-card-body">
+<img id="features9Card1-card-item0" src="images/images.jpg" width="480" height="640" alt="" title="">
+<div id="features9Card1-card-item1"><h1>Kukirin G2</h1></div>
+<div id="features9Card1-card-item2"><h1>Dla mnie G2 to BESTIA. Jeździ 50 km/h po drogach i 40 km/h po drogach gruntowych</h1></div>
+<div id="features9Card1-card-item3" data-ecommerce-platform="paypal" data-business="" data-item-name="WYSIWYG Web Builder" data-item-number="WWB18" data-amount="59.95" data-currency-code="USD" data-success-url="http://www.yourwebsite.com/" data-cancel-url="http://www.yourwebsite.com/" data-cmd="_cart" data-no_shipping="0" data-weight="1"><a href="https://www.wysiwygwebbuilder.com">Learn More</a></div>
+</div>
+</div>
+<div id="wb_features9Card2" style="display:flex;z-index:1;" class="card">
+<div id="features9Card2-card-body">
+<img id="features9Card2-card-item0" src="images/P1100950-1-scaled.jpg" width="2560" height="1465" alt="" title="">
+<div id="features9Card2-card-item1"><h1>Kukirin G4</h1></div>
+<div id="features9Card2-card-item2"><h1>bardzo przyjemny i dla prawdziwych gangsterów</h1></div>
+<div id="features9Card2-card-item3" data-ecommerce-platform="paypal" data-business="" data-item-name="WYSIWYG Web Builder" data-item-number="WWB18" data-amount="59.95" data-currency-code="USD" data-success-url="http://www.yourwebsite.com/" data-cancel-url="http://www.yourwebsite.com/" data-cmd="_cart" data-no_shipping="0" data-weight="1"><a href="https://www.wysiwygwebbuilder.com">OKEKEL</a></div>
+</div>
+</div>
+<div id="wb_features9Card3" style="display:flex;z-index:2;" class="card">
+<div id="features9Card3-card-body">
+<img id="features9Card3-card-item0" src="images/grgrggg.jpg" width="1920" height="1440" alt="" title="">
+<div id="features9Card3-card-item1"><h1>g4 okekel</h1></div>
+<div id="features9Card3-card-item2"><h1>pozdro izi bust</h1></div>
+<div id="features9Card3-card-item3" data-ecommerce-platform="paypal" data-business="" data-item-name="WYSIWYG Web Builder" data-item-number="WWB18" data-amount="59.95" data-currency-code="USD" data-success-url="http://www.yourwebsite.com/" data-cancel-url="http://www.yourwebsite.com/" data-cmd="_cart" data-no_shipping="0" data-weight="1"><a href="https://www.wysiwygwebbuilder.com">OKEKEL</a></div>
+</div>
+</div>
+<div id="wb_features9Card4" style="display:flex;z-index:3;" class="card">
+<div id="features9Card4-card-body">
+<img id="features9Card4-card-item0" src="images/hejeje.jpg" width="1920" height="1282" alt="" title="">
+<div id="features9Card4-card-item1"><h1>hulaja okekela</h1></div>
+<div id="features9Card4-card-item2"><h1>zbiurka na nową baterie</h1></div>
+<div id="features9Card4-card-item3" data-ecommerce-platform="paypal" data-business="" data-item-name="WYSIWYG Web Builder" data-item-number="WWB18" data-amount="59.95" data-currency-code="USD" data-success-url="http://www.yourwebsite.com/" data-cancel-url="http://www.yourwebsite.com/" data-cmd="_cart" data-no_shipping="0" data-weight="1"><a href="https://www.wysiwygwebbuilder.com">okekel top</a></div>
+</div>
+</div>
+<div id="wb_features9Card5" style="display:flex;z-index:4;" class="card">
+<div id="features9Card5-card-body">
+<img id="features9Card5-card-item0" src="okekel.jpeg" width="5354" height="5354" alt="" title="">
+<div id="features9Card5-card-item1"><h1>marek</h1></div>
+<div id="features9Card5-card-item2"><h1>HEAT LER</h1></div>
+<div id="features9Card5-card-item3" data-ecommerce-platform="paypal" data-business="" data-item-name="WYSIWYG Web Builder" data-item-number="WWB18" data-amount="59.95" data-currency-code="USD" data-success-url="http://www.yourwebsite.com/" data-cancel-url="http://www.yourwebsite.com/" data-cmd="_cart" data-no_shipping="0" data-weight="1"><a href="https://www.wysiwygwebbuilder.com">oddaj kase</a></div>
+</div>
+</div>
+<div id="wb_features9Card6" style="display:flex;z-index:5;" class="card">
+<div id="features9Card6-card-body">
+<img id="features9Card6-card-item0" src="images/mobile hej.jpg" width="767" height="767" alt="" title="">
+<div id="features9Card6-card-item1"><h1>hulaja</h1></div>
+<div id="features9Card6-card-item2"><h1>sorry mama mji nie pozwoliła</h1></div>
+<div id="features9Card6-card-item3" data-ecommerce-platform="paypal" data-business="" data-item-name="WYSIWYG Web Builder" data-item-number="WWB18" data-amount="59.95" data-currency-code="USD" data-success-url="http://www.yourwebsite.com/" data-cancel-url="http://www.yourwebsite.com/" data-cmd="_cart" data-no_shipping="0" data-weight="1"><a href="https://www.wysiwygwebbuilder.com">dla okekela</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_form6FlexContainer">
+<form name="FlexContainer1" method="post" action="TODO: enable built-in PHP form processor" enctype="multipart/form-data" id="form6FlexContainer">
+<div id="wb_form6Heading" style="display:block;z-index:24;">
+<h1 id="form6Heading">Masz propozycje pisz!!!!</h1>
+</div>
+<input type="text" id="form6Name" style="display:block;width: calc(100% - 16px);height:70px;" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="form6Email" style="display:block;width: calc(100% - 16px);height:70px;" name="email" value="" spellcheck="false" placeholder="Email address">
+<input type="text" id="form6Subject" style="display:block;width: calc(100% - 16px);height:70px;" name="subject" value="" spellcheck="false" placeholder="Subject">
+<textarea name="TextArea1" id="form6Message" style="display:block;width: calc(100% - 16px);height:145px;z-index:28;" autocomplete="off" spellcheck="false" placeholder="Message"></textarea>
+<button type="submit" id="form6Button" name="" value="Send Message" class="ui-button ui-corner-all" style="display:block;width:200px;height:71px;z-index:29;">Send Message</button>
+</form>
+</div>
+<div id="wb_intro4LayoutGrid">
+<div id="intro4LayoutGrid">
+<div class="col-1">
+<div id="wb_intro4Heading" style="display:block;width:100%;z-index:39;">
+<h1 id="intro4Heading">najlepzzy pokaz kukirinów na youtube</h1>
+</div>
+<div id="wb_intro4Text">
+<p>Banknoty są zielone tak jak ty w tym temacie</p>
+</div>
+<div id="wb_intro4Button" style="display:inline-block;width:169px;height:70px;z-index:41;">
+<a class="ui-button ui-corner-all" id="intro4Button" href="https://www.youtube.com/@Music1hourHub" style="width:100%;height:100%;">zostaw suba</a>
+</div>
+<div id="wb_intro4YouTube" style="display:block;width:100%;z-index:42;">
+<iframe id="intro4YouTube" src="https://www.youtube.com/embed/9i1-KHXYwNI&amp;list=RD9i1-KHXYwNI&amp;start_radio=1?rel=1&amp;autoplay=1&amp;autohide=0"></iframe>
+
+</div>
+<div id="wb_footer9LayoutGrid">
+<div id="footer9LayoutGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_footer9Card1" style="display:flex;width:100%;z-index:30;" class="card">
+<div id="footer9Card1-card-body">
+<div id="footer9Card1-card-item0">Zasady!!!</div>
+<div id="footer9Card1-card-item1">Słuchamy okekela, zero konfidentó, lokalizacja naq mapie, godizna 18.00, kaski obowiązkowe, słuchamy sie starszych</div>
+</div>
+</div>
+<div id="wb_footer9Heading" style="display:block;width:100%;z-index:31;">
+<h1 id="footer9Heading">zostaw folow</h1>
+</div>
+<div id="wb_footer9Icon1" style="display:inline-block;width:24px;height:24px;text-align:center;z-index:32;">
+<div id="footer9Icon1"><i class="fa fa-brands fa-facebook-f"></i></div>
+</div>
+<div id="wb_footer9Icon2" style="display:inline-block;width:24px;height:24px;text-align:center;z-index:33;">
+<div id="footer9Icon2"><i class="fa fa-brands fa-x-twitter"></i></div>
+</div>
+<div id="wb_footer9Icon3" style="display:inline-block;width:24px;height:24px;text-align:center;z-index:34;">
+<div id="footer9Icon3"><i class="fa fa-brands fa-instagram"></i></div>
+</div>
+<div id="wb_footer9Icon4" style="display:inline-block;width:24px;height:24px;text-align:center;z-index:35;">
+<div id="footer9Icon4"><i class="fa fa-brands fa-linkedin-in"></i></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_footer9Card2" style="display:flex;width:100%;z-index:36;" class="card">
+<div id="footer9Card2-card-body">
+<div id="footer9Card2-card-item0">Zlot <br>Kukirinów</div>
+<div id="footer9Card2-card-item1"><a href="./index.html">Warszawa</a></div>
+<div id="footer9Card2-card-item2"><a href="./index.html">Schodki</a></div>
+<div id="footer9Card2-card-item3"><a href="./index.html">12+</a></div>
+<div id="footer9Card2-card-item4"><a href="./index.html">tylko kukiriny</a></div>
+</div>
+</div>
+<div id="wb_footer9Card3" style="display:flex;width:100%;z-index:37;" class="card">
+<div id="footer9Card3-card-body">
+<div id="footer9Card3-card-item0">Support</div>
+<div id="footer9Card3-card-item1"><a href="./index.html">Tutorials</a></div>
+<div id="footer9Card3-card-item2"><a href="./index.html">FAQ</a></div>
+<div id="footer9Card3-card-item3"><a href="./index.html">Forum</a></div>
+<div id="footer9Card3-card-item4"><a href="./index.html">Support Ticket</a></div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_footer9JavaScript" style="display:block;width:100%;height:375px;z-index:38;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38363.15117278844!2d-73.9604497834648!3d40.78602151620618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral%20Park!5e0!3m2!1sen!2snl!4v1697018235872!5m2!1sen!2snl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
